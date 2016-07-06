@@ -1,0 +1,62 @@
+.clock {
+  background-image: url(images/clock.gif);
+  height: 500px;
+  width: 500px;
+  background-size: 100%;
+  margin: auto;
+  position: relative;
+}
+.clock div {
+  border-radius: 20px;
+}
+.clock .half {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 50%;
+}
+.clock .arrow-hours {
+  position: absolute;
+  height: 380px;
+  width: 12px;
+  background-color: transparent;
+  top: 60px;
+  left: 244px;
+  transform: rotate(6deg);
+}
+.clock .arrow-hours .half {
+  background-color: blue;
+}
+.clock .arrow-minutes {
+  position: absolute;
+  height: 430px;
+  width: 10px;
+  background-color: transparent;
+  top: 35px;
+  left: 246px;
+  transform: rotate(6deg);
+}
+.clock .arrow-minutes .half {
+  background-color: blue;
+}
+.clock .arrow-seconds {
+  position: absolute;
+  height: 440px;
+  width: 2px;
+  background-color: transparent;
+  top: 30px;
+  left: 249px;
+  transform: rotate(6deg);
+}
+.clock .arrow-seconds .half {
+  background-color: red;
+}
+.clock .dot {
+  position: absolute;
+  top: 238px;
+  left: 238px;
+  height: 24px;
+  width: 24px;
+  background-color: black;
+}
